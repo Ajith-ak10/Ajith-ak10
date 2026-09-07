@@ -1,62 +1,123 @@
-# Hello 👋 I'm Ajith Kumar G
+<div align="center">
 
-### 💻 Java Developer | AI & Machine Learning Enthusiast | Full Stack Learner
+# 👋 AJITH KUMAR G
+
+### CSE Undergraduate | Java Developer | Full Stack Developer | AI/ML Enthusiast
+
+<p>
+  <a href="https://github.com/Ajith-ak10">
+    <img src="https://img.shields.io/badge/GitHub-Ajith--ak10-black?style=for-the-badge&logo=github">
+  </a>
+  <a href="https://leetcode.com/u/Ajith-ak">
+    <img src="https://img.shields.io/badge/LeetCode-Ajith--ak-orange?style=for-the-badge&logo=leetcode">
+  </a>
+</p>
+
+</div>
+  ## 👨‍💻 About Me
+
+- 🎓 B.E. Computer Science and Engineering
+- 💻 Interested in Java and Full Stack Development
+- 🤖 Exploring AI/ML and Computer Vision
+- 🧠 Practicing Data Structures and Algorithms
+- 🚀 Interested in building scalable software solutions
+  ## 🚀 Featured Projects
+
+### 🫀 AI-Powered FCHD Detection
+AI-based framework for detecting Fetal Congenital Heart Disease
+from fetal echocardiogram videos.
+
+**Tech:** Python • TensorFlow • OpenCV • Deep Learning
 
 ---
 
-## 👨‍💻 About Me
+### 🏠 Co-Living Space Finder
 
-🎓 Computer Science and Engineering Student
+Full-stack platform connecting room providers and room seekers.
 
-💡 Passionate about Java, AI/ML, and solving real-world problems.
-
-🌱 Currently learning
-- Data Structures & Algorithms
-- Java
-- Machine Learning
-- Full Stack Development
-
-🚀 Love building projects and continuously improving my coding skills.
-
-🎯 Goal: Become a Software Engineer and contribute to impactful products.
+**Tech:** HTML • CSS • JavaScript • Firebase
 
 ---
 
-## 💻 Tech Stack
+### 🍱 Feed The Need
+
+Food donation platform connecting donors with NGOs.
+
+**Tech:** Python • HTML • CSS • JavaScript • Microsoft Excel
+
+---
+
+### ❤️ Fetal Heart Rate Monitoring System
+
+Hardware-based fetal heart rate monitoring system using sensors,
+microcontroller and LCD display.
+
+**Tech:** Arduino/ESP32 • Pulse Sensor • LCD
+## 🛠️ Technical Skills
 
 ### Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+Java • Python • SQL • JavaScript
 
-### Frontend
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+### Web
+HTML5 • CSS3 • JavaScript
 
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+### Core CS
+OOP • DSA • DBMS • Operating Systems • Computer Networks
 
-### Database
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+### Cloud & Database
+Firebase Authentication • Firebase Firestore • MySQL
 
----
+### Tools
+Git • GitHub • VS Code
 
-## 📚 Currently Working On
+### AI / Computer Vision
+TensorFlow • OpenCV • Deep Learning
 
-- Java Interview Preparation
-- LeetCode Problem Solving
-- Machine Learning Projects
-- Full Stack Development
+## 🎓 Education
 
----
+**B.E. Computer Science and Engineering**  
+Dr. N.G.P. Institute of Technology  
+2023 – 2027 | CGPA: 7.91
 
-## 📫 Connect With Me
+## 💼 Experience
 
-- LinkedIn: https://www.linkedin.com/in/ajith-kumar-g-476334398
-- Email: ajithkumar10022005@gmail.com
+### Full Stack Development Intern
+**Ether Infotech, Coimbatore**
 
-⭐ Thanks for visiting my profile!
+- Worked with HTML5, CSS3 and JavaScript.
+- Practiced frontend and backend integration.
+- Worked with database integration.
+- Used DOM manipulation and ES6 concepts.
+
+  ## 📊 GitHub Activity
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Ajith-ak10&show_icons=true&theme=tokyonight&hide_border=true" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ajith-ak10&theme=tokyonight&hide_border=true" />
+
+</div>
+## 🤝 Connect With Me
+
+<p align="center">
+
+<a href="https://www.linkedin.com/in/ajith-kumar-g-476334398">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+</a>
+
+<a href="mailto:ajithkumar10022005@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail">
+</a>
+
+<a href="https://github.com/Ajith-ak10">
+<img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github">
+</a>
+
+</p>
+
+
+
+
 
 
