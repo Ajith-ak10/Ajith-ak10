@@ -1,5 +1,12 @@
 <div align="center">
 
+<img src="./assets/header-animation.svg" width="100%" alt="Developer Header Background" />
+<br/><br/>
+
+<div align="center">
+  <img src="./assets/profile-frame.svg" width="180" alt="Ajith Kumar G" />
+</div>
+
 # 👋 Hi, I'm Ajith Kumar G
 
 ### 🚀 Java Developer | AI & Machine Learning Enthusiast | Full Stack Learner

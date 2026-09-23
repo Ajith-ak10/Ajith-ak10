@@ -1,0 +1,277 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <!-- Deep Navy, Blue & Subtle Purple Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040612" />
+      <stop offset="40%" stop-color="#090e24" />
+      <stop offset="80%" stop-color="#120e2e" />
+      <stop offset="100%" stop-color="#080c1a" />
+    </linearGradient>
+
+    <radialGradient id="purpleGlow" cx="65%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#1e1b4b" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#040612" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="blueGlow" cx="25%" cy="65%" r="55%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.18" />
+      <stop offset="60%" stop-color="#0c4a6e" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#040612" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Wave Gradients -->
+    <linearGradient id="waveGradDeep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.65" />
+      <stop offset="50%" stop-color="#1e1b4b" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.7" />
+    </linearGradient>
+
+    <linearGradient id="waveGradMid" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.22" />
+    </linearGradient>
+
+    <linearGradient id="waveLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="20%" stop-color="#38bdf8" stop-opacity="0.75" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.85" />
+      <stop offset="80%" stop-color="#c084fc" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Circuit Connection Gradient -->
+    <linearGradient id="circuitGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.1" />
+    </linearGradient>
+
+    <style>
+      /* Smooth Looping Flowing Waves */
+      .wave-deep {
+        animation: flowWaveDeep 14s ease-in-out infinite alternate;
+      }
+      .wave-mid {
+        animation: flowWaveMid 11s ease-in-out infinite alternate;
+      }
+      .wave-line {
+        animation: flowWaveLine 9s ease-in-out infinite alternate;
+      }
+
+      @keyframes flowWaveDeep {
+        0% { transform: translateX(0px) translateY(0px); }
+        50% { transform: translateX(-30px) translateY(-5px); }
+        100% { transform: translateX(25px) translateY(4px); }
+      }
+      @keyframes flowWaveMid {
+        0% { transform: translateX(0px) translateY(0px); }
+        50% { transform: translateX(35px) translateY(6px); }
+        100% { transform: translateX(-25px) translateY(-4px); }
+      }
+      @keyframes flowWaveLine {
+        0% { transform: translateX(0px) translateY(0px); }
+        50% { transform: translateX(-20px) translateY(-3px); }
+        100% { transform: translateX(20px) translateY(3px); }
+      }
+
+      /* Slowly Animated Floating Stars / Particles */
+      .particles-1 { animation: floatParticles1 8s ease-in-out infinite alternate; }
+      .particles-2 { animation: floatParticles2 11s ease-in-out infinite alternate; }
+      .particles-3 { animation: floatParticles3 13s ease-in-out infinite alternate; }
+      .particles-4 { animation: floatParticles4 9.5s ease-in-out infinite alternate; }
+
+      @keyframes floatParticles1 {
+        0% { transform: translateY(0px) translateX(0px); opacity: 0.25; }
+        50% { transform: translateY(-14px) translateX(8px); opacity: 0.85; }
+        100% { transform: translateY(3px) translateX(-6px); opacity: 0.3; }
+      }
+      @keyframes floatParticles2 {
+        0% { transform: translateY(0px) translateX(0px); opacity: 0.35; }
+        50% { transform: translateY(-18px) translateX(-10px); opacity: 0.9; }
+        100% { transform: translateY(4px) translateX(8px); opacity: 0.4; }
+      }
+      @keyframes floatParticles3 {
+        0% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+        50% { transform: translateY(-10px) translateX(12px); opacity: 0.75; }
+        100% { transform: translateY(-16px) translateX(4px); opacity: 0.25; }
+      }
+      @keyframes floatParticles4 {
+        0% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+        50% { transform: translateY(-15px) translateX(-8px); opacity: 0.85; }
+        100% { transform: translateY(-4px) translateX(10px); opacity: 0.35; }
+      }
+
+      /* Subtle Circuit Pulsing Elements */
+      .circuit-node {
+        animation: pulseNode 4s ease-in-out infinite alternate;
+      }
+      @keyframes pulseNode {
+        0% { opacity: 0.25; r: 2; }
+        50% { opacity: 0.85; r: 3.2; }
+        100% { opacity: 0.35; r: 2.2; }
+      }
+
+      .tech-ring-1 {
+        transform-origin: center;
+        animation: rotateRing 36s linear infinite;
+      }
+      .tech-ring-2 {
+        transform-origin: center;
+        animation: rotateRingRev 28s linear infinite;
+      }
+      @keyframes rotateRing {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes rotateRingRev {
+        from { transform: rotate(360deg); }
+        to { transform: rotate(0deg); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base Canvas -->
+  <rect width="1200" height="300" fill="url(#bgGradient)" />
+  <rect width="1200" height="300" fill="url(#purpleGlow)" />
+  <rect width="1200" height="300" fill="url(#blueGlow)" />
+
+  <!-- Subtle Developer / AI Circuit Grid (Very Soft & Clean) -->
+  <g opacity="0.06">
+    <!-- Horizontal Grid Lines -->
+    <line x1="0" y1="50" x2="1200" y2="50" stroke="#38bdf8" stroke-width="1" />
+    <line x1="0" y1="100" x2="1200" y2="100" stroke="#38bdf8" stroke-width="1" />
+    <line x1="0" y1="150" x2="1200" y2="150" stroke="#38bdf8" stroke-width="1" />
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#38bdf8" stroke-width="1" />
+    <line x1="0" y1="250" x2="1200" y2="250" stroke="#38bdf8" stroke-width="1" />
+
+    <!-- Vertical Grid Lines -->
+    <line x1="150" y1="0" x2="150" y2="300" stroke="#38bdf8" stroke-width="1" />
+    <line x1="300" y1="0" x2="300" y2="300" stroke="#38bdf8" stroke-width="1" />
+    <line x1="450" y1="0" x2="450" y2="300" stroke="#38bdf8" stroke-width="1" />
+    <line x1="600" y1="0" x2="600" y2="300" stroke="#38bdf8" stroke-width="1" />
+    <line x1="750" y1="0" x2="750" y2="300" stroke="#38bdf8" stroke-width="1" />
+    <line x1="900" y1="0" x2="900" y2="300" stroke="#38bdf8" stroke-width="1" />
+    <line x1="1050" y1="0" x2="1050" y2="300" stroke="#38bdf8" stroke-width="1" />
+  </g>
+
+  <!-- Subtle Geometric Circuit Elements -->
+  <!-- Left Circuit Nodes & Paths -->
+  <g>
+    <path d="M 80,150 L 180,150 L 220,110 L 340,110 L 370,140" fill="none" stroke="url(#circuitGrad)" stroke-width="1.2" stroke-dasharray="4 4" />
+    <path d="M 120,210 L 200,210 L 240,250 L 320,250" fill="none" stroke="url(#circuitGrad)" stroke-width="1" />
+    
+    <!-- Left Circuit Tech Rings -->
+    <g transform="translate(130, 150)">
+      <circle cx="0" cy="0" r="50" fill="none" stroke="#38bdf8" stroke-opacity="0.1" stroke-width="1.2" stroke-dasharray="8 6" class="tech-ring-1" />
+      <circle cx="0" cy="0" r="32" fill="none" stroke="#818cf8" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="12 6" class="tech-ring-2" />
+      <circle cx="0" cy="0" r="18" fill="none" stroke="#c084fc" stroke-opacity="0.12" stroke-width="1" />
+      <circle cx="0" cy="0" r="2.5" fill="#38bdf8" class="circuit-node" />
+    </g>
+
+    <circle cx="220" cy="110" r="3" fill="#818cf8" class="circuit-node" />
+    <circle cx="340" cy="110" r="2.5" fill="#38bdf8" class="circuit-node" />
+    <circle cx="240" cy="250" r="2.2" fill="#c084fc" class="circuit-node" />
+  </g>
+
+  <!-- Right Circuit Nodes & Paths -->
+  <g>
+    <path d="M 1120,150 L 1020,150 L 980,190 L 860,190 L 830,160" fill="none" stroke="url(#circuitGrad)" stroke-width="1.2" stroke-dasharray="4 4" />
+    <path d="M 1080,90 L 1000,90 L 960,50 L 880,50" fill="none" stroke="url(#circuitGrad)" stroke-width="1" />
+
+    <!-- Right Circuit Tech Rings -->
+    <g transform="translate(1070, 150)">
+      <circle cx="0" cy="0" r="50" fill="none" stroke="#818cf8" stroke-opacity="0.1" stroke-width="1.2" stroke-dasharray="10 6" class="tech-ring-2" />
+      <circle cx="0" cy="0" r="32" fill="none" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="1" stroke-dasharray="8 6" class="tech-ring-1" />
+      <circle cx="0" cy="0" r="18" fill="none" stroke="#a855f7" stroke-opacity="0.12" stroke-width="1" />
+      <circle cx="0" cy="0" r="2.5" fill="#818cf8" class="circuit-node" />
+    </g>
+
+    <circle cx="980" cy="190" r="3" fill="#38bdf8" class="circuit-node" />
+    <circle cx="860" cy="190" r="2.5" fill="#818cf8" class="circuit-node" />
+    <circle cx="960" cy="50" r="2.2" fill="#38bdf8" class="circuit-node" />
+  </g>
+
+  <!-- Center Minimalist Geometric Accent Lines -->
+  <g transform="translate(600, 150)">
+    <line x1="-280" y1="0" x2="280" y2="0" stroke="url(#waveLineGrad)" stroke-width="1.2" />
+    
+    <!-- Central Geometric Node Diamond -->
+    <polygon points="-8,0 0,-8 8,0 0,8" fill="none" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.6" />
+    <circle cx="0" cy="0" r="2.5" fill="#38bdf8" class="circuit-node" />
+    
+    <circle cx="-160" cy="0" r="2.2" fill="#818cf8" class="circuit-node" />
+    <circle cx="160" cy="0" r="2.2" fill="#818cf8" class="circuit-node" />
+    
+    <!-- Minimalist Corner Framing Accents -->
+    <path d="M -260,-20 L -275,-20 L -275,20 L -260,20" fill="none" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1" />
+    <path d="M 260,-20 L 275,-20 L 275,20 L 260,20" fill="none" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1" />
+  </g>
+
+  <!-- Flowing Gradient Waves (Bottom Layer) -->
+  <g class="wave-deep">
+    <path d="M -80,240 Q 180,205 460,235 T 1020,225 T 1280,240 L 1280,300 L -80,300 Z" fill="url(#waveGradDeep)" />
+  </g>
+
+  <!-- Flowing Gradient Waves (Mid Layer) -->
+  <g class="wave-mid">
+    <path d="M -80,255 Q 220,220 540,250 T 1100,240 T 1280,255 L 1280,300 L -80,300 Z" fill="url(#waveGradMid)" />
+  </g>
+
+  <!-- Flowing Accent Gradient Wave Line (Front Subtle Crest) -->
+  <g class="wave-line">
+    <path d="M -80,255 Q 220,220 540,250 T 1100,240 T 1280,255" fill="none" stroke="url(#waveLineGrad)" stroke-width="1.6" />
+  </g>
+
+  <!-- Slowly Animated Small Particles / Stars Field -->
+  <!-- Particle Group 1 -->
+  <g class="particles-1">
+    <circle cx="160" cy="70" r="1.8" fill="#38bdf8" />
+    <circle cx="340" cy="45" r="2.2" fill="#818cf8" />
+    <circle cx="510" cy="85" r="1.6" fill="#c084fc" />
+    <circle cx="720" cy="55" r="2.4" fill="#38bdf8" />
+    <circle cx="910" cy="75" r="1.8" fill="#818cf8" />
+    <circle cx="1060" cy="45" r="2" fill="#c084fc" />
+    <circle cx="280" cy="220" r="2.2" fill="#38bdf8" />
+    <circle cx="820" cy="210" r="1.6" fill="#818cf8" />
+  </g>
+
+  <!-- Particle Group 2 -->
+  <g class="particles-2">
+    <circle cx="100" cy="180" r="2" fill="#818cf8" />
+    <circle cx="240" cy="95" r="1.6" fill="#c084fc" />
+    <circle cx="430" cy="60" r="2.5" fill="#38bdf8" />
+    <circle cx="640" cy="80" r="1.8" fill="#e0e7ff" />
+    <circle cx="850" cy="60" r="2.2" fill="#38bdf8" />
+    <circle cx="990" cy="110" r="1.6" fill="#818cf8" />
+    <circle cx="1140" cy="80" r="2" fill="#c084fc" />
+    <circle cx="490" cy="210" r="1.8" fill="#38bdf8" />
+  </g>
+
+  <!-- Particle Group 3 -->
+  <g class="particles-3">
+    <circle cx="190" cy="130" r="1.6" fill="#e0e7ff" />
+    <circle cx="380" cy="180" r="2.2" fill="#38bdf8" />
+    <circle cx="570" cy="50" r="2" fill="#818cf8" />
+    <circle cx="780" cy="120" r="2.4" fill="#c084fc" />
+    <circle cx="940" cy="170" r="1.6" fill="#38bdf8" />
+    <circle cx="1110" cy="180" r="2.2" fill="#818cf8" />
+    <circle cx="680" cy="220" r="1.8" fill="#e0e7ff" />
+  </g>
+
+  <!-- Particle Group 4 -->
+  <g class="particles-4">
+    <circle cx="70" cy="85" r="2.2" fill="#38bdf8" />
+    <circle cx="290" cy="65" r="1.6" fill="#818cf8" />
+    <circle cx="480" cy="130" r="2.4" fill="#c084fc" />
+    <circle cx="670" cy="100" r="1.6" fill="#38bdf8" />
+    <circle cx="880" cy="135" r="2.2" fill="#818cf8" />
+    <circle cx="1030" cy="85" r="1.8" fill="#e0e7ff" />
+    <circle cx="390" cy="235" r="2" fill="#c084fc" />
+    <circle cx="770" cy="230" r="1.6" fill="#38bdf8" />
+  </g>
+
+  <!-- Bottom Edge Accent Baseline -->
+  <line x1="0" y1="299" x2="1200" y2="299" stroke="#38bdf8" stroke-opacity="0.18" stroke-width="1" />
+</svg>
